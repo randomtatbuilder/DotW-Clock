@@ -365,17 +365,7 @@ void loop() {
 
         //if it's not Sunday
         if (currentday != 1) {
-          stepper.enableOutputs();
-
-          //Rotate to next day
-          stepper.setCurrentPosition(0);
-          stepper.moveTo((585) * -1);
-
-          while (stepper.distanceToGo() != 0) {
-            stepper.run();
-            delay(10);
-          }
-          stepper.disableOutputs();
+          advanceaday();
         } else {
           //advance to Sunday using the magnet - this prevents the days drifting out of the view window
           advancetosunday();
