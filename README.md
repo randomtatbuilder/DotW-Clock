@@ -1,5 +1,7 @@
 This is a sketch for use with an ESP 8266 chip to control a Day of the Week (DotW) clock
+
 The clock is available on Thingiverse https://www.thingiverse.com/thing:6347703
+
 There is a youtube video showing the clock and its construction on youtube https://www.youtube.com/watch?v=u2YcKe2Kwwc
 
 
